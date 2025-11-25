@@ -1,0 +1,2 @@
+"version","formula_str","adapt_delta","max_treedepth","warmup","iter_sampling","iter","chains","threads","prior_r","prior_K","prior_a"
+"microbial_v1.2","Per_Capita_Growth_Rate ~ r * (2 * step(a) - 1) * (1 - Rescaled_Density^a)",0.999,25,2000,8000,10000,4,4,"normal(0, 2) lb=0; ","","normal(0, 2); "

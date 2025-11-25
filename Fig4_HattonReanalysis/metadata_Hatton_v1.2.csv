@@ -1,0 +1,2 @@
+"version","formula_str","adapt_delta","max_treedepth","warmup","iter_sampling","iter","chains","threads","prior_r","prior_K","prior_a"
+"Hatton_v1.2","growth_rate ~ r * (2 * step(a) - 1) * (1 - (x_gm/K)^a)",0.999,25,2000,8000,10000,4,4,"normal(0, 2) lb=0; ","normal(500, 300) lb=0.001; ","normal(0, 2); "
